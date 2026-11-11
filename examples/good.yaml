@@ -1,0 +1,15 @@
+# A clean app config.
+app:
+  name: demo-app
+  version: 1.4.2
+  debug: false
+  server:
+    host: localhost
+    port: 8080
+  features:
+    - search
+    - export
+  notes: |
+    Lines inside a block scalar
+      keep whatever indent they have
+  url: "https://example.com/docs"

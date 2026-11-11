@@ -1,0 +1,8 @@
+# A clean server config, indented four spaces.
+server:
+    host: example.com
+    port: 443
+    tls:
+        enabled: true
+        cert: /etc/ssl/cert.pem
+    workers: 4
